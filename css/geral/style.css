@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    color: #654ea3;
+    background-color: #eaafc8;
+    font-size: 4rem;
+    font-weight: 900;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Roboto', arial, cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', arial, cursive;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+.novo-em {
+    font-size: 300%;
+}
+
+.novo-em h2 {
+    font-size: 3.2em;
+}
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1734282134343-a223ce00b9aa?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+    text-indent: 90px;
+}
+
+a {
+    font-size: 1.8rem;
+    color: #eaafc8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #654ea3;
+}
+
+a:active {
+    color: #eaafc8;
+}
+
+a:visited {
+    color: #513d87;
+}
+
+nav.menu {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    padding: 3.5px;
+    background-color: #8e6cea;
+    z-index: 1;
+}
+
+main {
+    padding-top: 3rem;
+}
+
+table, td, th {
+    border: 1px solid #000;
+}
+
+table {
+    font-size: 2rem;
+    border-collapse: separate;
+}
+
+table tr:first-child {
+    background-color: #8e6cea;
+}
+
+table tr:nth-child(2n + 3) {
+    background-color: rgba(234, 175, 200, 0.8);
+}
+
+ul, ol {
+    padding-left: 3.2rem;
+}
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+.item-menu {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 30%;
+    height: 100px;
+    width: 200px;
+    border: 4px solid #8e6cea;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgba(234, 175, 200, 0.5);
+    border-radius: 1rem;
+    position: relative;
+}
+
+.lista-contatos {
+    position: relative;
+}
+
+.lista-contatos h2 {
+    position: sticky;
+    background-color: #eaafc8;
+    top: 3rem;
+}

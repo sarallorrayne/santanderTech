@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+        <form>
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" id="texto" placeholder="Informe seu nome" name="nome">
+            </div>
+            <br>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label for="data">Data de nascimento:</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <br>
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            <br>
+            <div>
+                <label for="numero">Número:</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+            <br>
+            <div>
+                <label for="arquivo">Arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+            <br>
+            <div>
+                <label for="url">Link:</label>
+                <input type="url" id="url" name="url">
+            </div>
+            <br>
+            <div>
+                <label for="cor">Cor:</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+            <br>
+            <div>
+                <label for="alcance">Alcance:</label>
+                <input type="range" id="alcance" name="alcance" valor="100" max="200" min="100">
+            </div>
+            <br>
+            <div>
+                <label for="checkbox">Caixa de seleção múltipla:</label>
+                <input type="checkbox" id="checkbox" name="checkbox" checked>
+            </div>
+            <br>
+            <div>
+                <label for="radio">Caixa de seleção única:</label>
+                <input type="radio" id="radio" name="radio">
+            </div>
+            <br>
+            <div>
+                <textarea name="bio" id="bio" rows="10" cols="30"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="reset" id="limpar" name="limpar" value="Limpar formulário">
+            </div>
+            <br>
+            <div>
+                <input type="submit" id="enviar" name="enviar" value="Enviar formulário">
+            </div>
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções:</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="tranferencia">Transferência</option>
+                </select>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

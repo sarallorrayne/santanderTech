@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'arial';
+    font-size: 1.8rem;
+}
+
+/* main {
+    padding: 7rem 0;
+} */
+
+h1 {
+    color: blueviolet;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', arial, cursive;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.boxes {
+    /* height: calc(100vh - (7 * 2rem)); */
+    height: calc(100vh);
+    position: relative;
+    padding: 4rem;
+
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row; mesma coisa do flex-flow*/
+    flex-flow: row wrap;
+    /* align-items: center; */
+    align-content: center;
+    justify-content: flex-start;
+    gap: 2rem 5rem;
+}
+
+.box {
+    min-height: 10rem;
+    min-width: 20rem;
+    padding: 1.5rem;
+    border: 10px solid #8e6cea;
+    border-radius: 0.4rem;
+    background-color: #eaafc8;
+    color: #666;
+    font-size: 4rem;
+    order: 10;
+    /* flex-basis: calc(50% - 5rem); */
+    flex: 1;
+
+    /* text-align: center; */
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.box:nth-child(1) {
+    order: 1;
+}
+
+.box:nth-child(2) {
+    order: 2;
+    flex: 2;
+}
+
+.box:nth-child(7) {
+    order: 3;
+}
+
+.box p, button {
+    font-size: 4rem;
+}
