@@ -159,15 +159,15 @@ nav.menu {
     left: 30px;
 } */
 
-.box:nth-child(n + 2) {
-    /* display: none; */
+/* .box:nth-child(n + 2) {
+    display: none;
 }
 
 .box:nth-child(1), .box:nth-child(2) {
 }
 
 .box:nth-child(3) {
-}
+} */
 
 .boxes p {
     display: inline;
@@ -200,11 +200,11 @@ a {
     /* visibility: hidden; */
 }
 
-[data-anchor="products"] {
-    /* opacity: 0; */
-    /* display: none; */
-    /* visibility: hidden; */
-}
+/* [data-anchor="products"] {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+} */
 
 [data-anchor="products"]:hover {
     transform: scale(1.1);
@@ -266,9 +266,9 @@ a {
     }
 }
 
-#companies-table {
-    /* display: none; */
-}
+/* #companies-table {
+    display: none;
+} */
 
 [data-company] {
     background-color: #c9b8f9;
