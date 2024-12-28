@@ -1,0 +1,2 @@
+console.log("1" + 1); // Retorna 11 - O JavaScript tenta somar os dois valores, mas como um deles é uma string, ele concatena os valores
+console.log("10" - 5); // Retorna 5 - O JavaScript tenta subtrair os dois valores, então ele converte a string para número e faz a subtração
