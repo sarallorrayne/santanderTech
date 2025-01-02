@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "1. Incializar um projeto Node.js;\r     > npm init (-y)\r 2. Instalar o TypeScript\r     2.1 Instalação global\r         > Intalação na máquina toda",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
