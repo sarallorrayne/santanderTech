@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: #222;
+    color: #fff;
+} */
+
+button#theme {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+h1{
+    margin: 2rem 1rem;
+}
+
+h2, p, label, input, ul, li, button {
+    margin-left: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #C06C84;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+img {
+    width: 25rem;
+    margin: 2rem;
+}

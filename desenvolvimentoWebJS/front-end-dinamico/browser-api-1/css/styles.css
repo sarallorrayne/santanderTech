@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+h1{
+    margin: 2rem 1rem;
+}
+
+h3, p, label, input, ul, li {
+    margin-left: 2rem;
+}
+
+img {
+    width: 25rem;
+    margin: 2rem;
+}
